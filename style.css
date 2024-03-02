@@ -173,9 +173,29 @@ nav .fas{
     color: #ae00ff;
 }
 #Aboutus{
-    height: 100vh;
-    background-color: #bebebe;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: #303030 0px 0px 5px;
     width: 100%;
+    padding: 3%;
+    font-family: 'poppins' , 'sans-serif';
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Aboutus h2{
+    font-weight: 500;
+    font-size: 50px;
+}
+#Aboutus p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#Aboutus img{
+    height: 95%;
+    border-radius: 8px;
+}
+#Aboutus span{
+    color: rgb(150, 61, 233);
 }
 footer{
     height: 80vh;
