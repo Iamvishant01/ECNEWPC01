@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/7a43ab629f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering circle.online</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="Index.html"><img src="Logo/logo-fotor-2024012823754.png" class="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="Index.html" class="home">Home</a></li>
+                <li><a href="Index.html" >About us</a></li>
+                <li><a href="Index.html" >Compilers</a></li>
+                <li><a href="#container2" >Blogs</a></li>
+                <li class="services">
+                    <p>Study Material ▼</p>
+          
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                      <li><a href="syllabus.html"><i class="fa-solid fa-chalkboard-user"></i> Syllabus </a></li>
+                      <li><a href="labmanual.html"><i class="fa-solid fa-lightbulb"></i> Lab Manual PDF</a></li>
+                      <li><a href="modelans.html"><i class="fa-regular fa-newspaper"></i> Model ans Paper</a></li>
+                      <li><a href="Index.html"><i class="fa-solid fa-book"></i> IMP Books</a></li>
+                    </ul>
+          
+                  </li>
+                <li><a href="#contact" class="Login"><i class="fa-solid fa-user"></i> Sign up / Login</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" id="x"></i>
+        </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" id="y"></i>
+        </nav>
+    </div>
+<!---Content-->
+<div class="container1">
+    <div class="header-text">
+        <h1>Engineering <span>circle</span></h1>
+        <p data-aos="fade-up" style="transition: 1s;">"Engineer Your Success: Where Knowledge Meets Innovation!"</p>
+    </div>
+    <div class="custom-shape-divider-bottom-1706380620">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
+<div id="container2">
+    <h1>Recommended for you <span>&#x2764;</span></h1>
+    <br>
+    <br>
+<div class="blog-container">
+        
+    <div class="box">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUO6liZjf1bdnVJRkng5K_FcT5xELyjvamAKmfk6hdHTLgLqNT-gt35tApTdbI7_qbzh7HPKfOL7EAnAgKGaLGhoQXhdnchyphenhyphennMA5-ncWuuOcbIGkeOKdzbfQltNC3CDEYcdI741iAwQvfCoBZGmE3PW-qzjrtOZpcWZxJffMFHFPDcUxs9C6laGiVt2XMH/w505-h362/computerworkingman.jpg" alt="">
+        <h2><a href="https://wealthiermind.blogspot.com/2023/12/5-ways-to-boost-your-productivity.html?m=1" target="_blank">5 Ways to Boost Your Productivity</a></h2>
+    </div>
+    <div class="box">
+        
+    </div>
+    <div class="box">
+        
+    </div>
+    <div class="box">
+        
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+        
+    </div>
+    <div class="box">
+        
+    </div>
+    <div class="box">
+        
+    </div>
+</div>
+</div>
+<!-----Content end-->
+<!----Nav-bar-open-close-function-start-->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        </script>
+        <!----Nav-bar-open-close-function-start-->
+        <!--Animation-script-start-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <!--Animation-script-end-->
+</body>
+</html>

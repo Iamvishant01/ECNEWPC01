@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="syllabus.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/7a43ab629f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="Index.html"><img src="Logo/logo-fotor-2024012823754.png" class="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="Index.html" class="home">Home</a></li>
+                <li><a href="Index.html" >About us</a></li>
+                <li><a href="Index.html" >Compilers</a></li>
+                <li><a href="#container2" >Blogs</a></li>
+                <li class="services">
+                    <p>Study Material ▼</p>
+          
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                      <li><a href="syllabus.html"><i class="fa-solid fa-chalkboard-user"></i> Syllabus </a></li>
+                      <li><a href="labmanual.html"><i class="fa-solid fa-lightbulb"></i> Lab Manual PDF</a></li>
+                      <li><a href="modelans.html"><i class="fa-regular fa-newspaper"></i> Model ans Paper</a></li>
+                      <li><a href="Index.html"><i class="fa-solid fa-book"></i> IMP Books</a></li>
+                    </ul>
+          
+                  </li>
+                <li><a href="#contact" class="Login"><i class="fa-solid fa-user"></i> Sign up / Login</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" id="x"></i>
+        </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" id="y"></i>
+        </nav>
+    </div>
+    <!--Content-start-->
+    <div class="container1">
+        <div class="header-text">
+        <h1 data-aos="fade-up" style="transition: 1s;">Academic Mosaic: Navigating <span>MSBTE's</span> Branch-wise Syllabus</h1>
+        <h2 data-aos="fade" style="transition: 2s;"><a href="#container2">Choose Branch ▼</a></h2>
+        </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1706643983">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div id="container2">
+        <div class="blog-container">
+            <div class="box">
+                <h1>Diploma in Computer engineering </h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+            <div class="box">
+                <h1>Diploma in Electrical engineering </h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+            <div class="box">
+                <h1>Diploma in Electronic engineering </h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+            <div class="box">
+                <h1>Diploma in Civil engineering </h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+            <div class="box">
+                <h1>Diploma in Information & technology</h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+            <div class="box">
+                <h1>Diploma in Chemical engineering </h1>
+                <p> “ Learn coding, hardware, and networks. Master tech skills for software, systems, and IT support roles. “</p>
+                <h2><a href="#">Open</a></h2>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Content-end-->
+    <!----Nav-bar-open-close-function-start-->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        </script>
+    <!----Nav-bar-open-close-function-start-->
+            <!--Animation-script-start-->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+            AOS.init();
+            </script>
+    <!--Animation-script-end-->
+</body>
+</html>
