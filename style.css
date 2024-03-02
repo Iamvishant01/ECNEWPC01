@@ -172,6 +172,19 @@ nav .fas{
 #container2 h1 span{
     color: #ae00ff;
 }
+#Aboutus{
+    height: 100vh;
+    background-color: #bebebe;
+    width: 100%;
+}
+footer{
+    height: 80vh;
+    background-color: #303030;
+    width: 100%;
+}
+.footer{
+
+}
 @media only screen and (max-width: 600px){
     nav .fas{
         display: block;
@@ -251,5 +264,12 @@ nav .fas{
     }
     .logo{
         width: 40px;
+    }
+    footer{
+        height: 70vh;
+        margin-top: 0%;
+    }
+    #Aboutus{
+        margin-top: 140%;
     }
 }
