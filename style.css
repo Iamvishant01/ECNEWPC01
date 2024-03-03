@@ -180,18 +180,21 @@ nav .fas{
     padding: 3%;
     font-family: 'poppins' , 'sans-serif';
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
+    column-gap: 5px
 }
 #Aboutus h2{
     font-weight: 500;
     font-size: 50px;
+    
 }
 #Aboutus p{
     font-size: 18px;
     font-weight: 500;
 }
 #Aboutus img{
-    height: 95%;
+    height: 75%;
     border-radius: 8px;
 }
 #Aboutus span{
@@ -285,11 +288,31 @@ footer{
     .logo{
         width: 40px;
     }
+    #Aboutus{
+        margin-top: 150%;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    #Aboutus #AH2{
+        text-align: left;
+        padding: 5%;
+        overflow: hidden;
+        font-size: 55px;
+        text-align: center;
+    }
+    #Aboutus #AH2 p{
+        text-align: left;
+        font-size: 21px;
+        word-break: break-all;
+    }
+    #Aboutus img{
+        width: 100%;
+    }
     footer{
         height: 70vh;
         margin-top: 0%;
-    }
-    #Aboutus{
-        margin-top: 140%;
     }
 }
