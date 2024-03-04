@@ -200,11 +200,7 @@ nav .fas{
 #Aboutus span{
     color: rgb(150, 61, 233);
 }
-footer{
-    height: 80vh;
-    background-color: #303030;
-    width: 100%;
-}
+
 @media only screen and (max-width: 600px){
     nav .fas{
         display: block;
@@ -308,8 +304,5 @@ footer{
     #Aboutus img{
         width: 100%;
     }
-    footer{
-        height: 70vh;
-        margin-top: 0%;
-    }
+
 }
