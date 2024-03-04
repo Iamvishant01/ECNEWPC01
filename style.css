@@ -401,7 +401,7 @@ ul{
 }
 @media(max-width: 574px){
     .footer-col{
-      width: 50%;
+      width: 100%;
   }
   }
   
